@@ -12,17 +12,13 @@ user_grade = float(input("What is your numeric grade? "))
 
 if(user_grade >= GRADE_A and user_grade < 101):
     print("Congrats! You got an A.")
+elif(user_grade >= GRADE_B and user_grade < 91):
+    print("You got a B.")
+elif(user_grade >= GRADE_C and user_grade < 81):
+    print("You got a C.")
+elif(user_grade >= GRADE_D and user_grade < 71):
+    print("You got a D.")
+elif(user_grade >= GRADE_F and user_grade < 61):
+    print("You got an F.")
 else:
-    if(user_grade >= GRADE_B and user_grade < 91):
-        print("You got a B.")
-    else:
-        if(user_grade >= GRADE_C and user_grade < 81):
-            print("You got a C.")
-        else:
-            if(user_grade >= GRADE_D and user_grade < 71):
-                print("You got a D.")
-            else:
-                if(user_grade >= GRADE_F and user_grade < 61):
-                    print("You got an F.")
-                else:
-                    print("You put an invalid input")
+    print("You put an invalid input")
