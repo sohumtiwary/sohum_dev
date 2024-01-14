@@ -8,7 +8,7 @@ That is the sale price
 Faster way 
 Get the normal price of item
 Multiply by 0.8
-That is the sale price
+That is the sale price 
 '''
 
 
